@@ -1,0 +1,51 @@
+{
+    "name": "auroralegacy-snippets",
+    "displayName": "Aurora Legacy Snippets",
+    "description": "Visual Studio snippet pack with the Aurora Legacy formatting.",
+    "version": "0.0.1",
+    "icon": "icon.png",
+    "preview": true,
+    "publisher": "AuroraLegacy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AuroraLegacy/AuroraLegacy-Snippets-VSCE"
+    },
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "xml",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/proficiencies.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/types.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/conditions.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/specifics.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/class.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/items.json"
+            }
+        ]
+    }
+}
