@@ -1,0 +1,80 @@
+{
+	"auroralegacy:grant-condition-resistance-bludgeoning" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-bludgeoning",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-piercing" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-piercing",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-slashing" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-slashing",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-acid" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-acid",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-cold" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-cold",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-fire" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-fire",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-force" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-force",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-lightning" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-lightning",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-necrotic" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-necrotic",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-poison" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-poison",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-psychic" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-psychic",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-radiant" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-radiant",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT\" />"
+		]
+	},
+	"auroralegacy:grant-condition-resistance-thunder" : {
+		"prefix" : "auroralegacy:grant-condition-resistance-thunder",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER\" />"
+		]
+	}	
+}
