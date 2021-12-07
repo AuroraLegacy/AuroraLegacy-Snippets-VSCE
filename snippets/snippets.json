@@ -468,7 +468,7 @@
 		"body" : [
 			"<table>",
 			"\t<thead>",
-			"\t\t<tr><td>d12</td><td>${1:column2}</td></tr>",
+			"\t\t<tr><td>d20</td><td>${1:column2}</td></tr>",
 			"\t</thead>",
 			"\t<tr><td>1</td><td>data1</td></tr>",
 			"\t<tr><td>2</td><td>data2</td></tr>",
@@ -538,6 +538,12 @@
 		"prefix" : "auroralegacy:p-feature",
 		"body" : [
 			"<p class=\"indent\"><strong><em>${1:feature}.</em></strong> ${2:description}</p>"
+		]
+	},
+	"auroralegacy:p-indent" : {
+		"prefix" : "auroralegacy:p-indent",
+		"body" : [
+			"<p class=\"indent\">${1:description}</p>"
 		]
 	},
 	"auroralegacy:p-at-higher-levels" : {

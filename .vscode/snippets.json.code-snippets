@@ -540,6 +540,12 @@
 			"<p class=\"indent\"><strong><em>${1:feature}.</em></strong> ${2:description}</p>"
 		]
 	},
+	"auroralegacy:p-indent" : {
+		"prefix" : "auroralegacy:p-indent",
+		"body" : [
+			"<p class=\"indent\">${1:description}</p>"
+		]
+	},
 	"auroralegacy:p-at-higher-levels" : {
 		"prefix" : "auroralegacy:p-at-higher-levels",
 		"body" : [
@@ -618,15 +624,15 @@
 	"auroralegacy:custom-race-ASI" : {
 		"prefix" : "auroralegacy:custom-race-ASI",
 		"body" : [
-			"<select type=\"Ability Score Improvement\" name=\"Ability Score Improvement Option (${1:name})\" supports=\"Custom Ability Score Improvement Option\" />"
+			"<select type=\"Ability Score Improvement\" name=\"Ability Score Improvement Option ({1:name})\" supports=\"Custom Ability Score Improvement Option\" />"
 		]
 	},
-	"auroralegacy:custom-race-ASILanguage" : {
-		"prefix" : "auroralegacy:custom-race-ASILanguage",
+	"auroralegacy:custom-race-ASI-Lang" : {
+		"prefix" : "auroralegacy:custom-race-ASI-Lang",
 		"body" : [
-			"<select type=\"Ability Score Improvement\" name=\"Ability Score Improvement Option (${1:Race})\" supports=\"Custom Ability Score Improvement Option\" />",
+			"<select type=\"Ability Score Improvement\" name=\"Ability Score Improvement Option ({1:name})\" supports=\"Custom Ability Score Improvement Option\" />",
 			"<grant type=\"Language\" id=\"ID_LANGUAGE_COMMON\" requirements=\"!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE\" />",
-			"<select type=\"Language\" name=\"Customized Language (${1:Race})\" supports=\"Custom Race Language\" requirements=\"ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE\" />"
+			"<select type=\"Language\" name=\"Customized Language ({1:name})\" supports=\"Custom Race Language\" requirements=\"ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE\" />"
 		]
 	}
 }
