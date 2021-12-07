@@ -76,5 +76,161 @@
 		"body" : [
 			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER\" />"
 		]
-	}	
+	},
+	"auroralegacy:grant-condition-immunity-bludgeoning" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-bludgeoning",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_BLUDGEONING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-piercing" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-piercing",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PIERCING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-slashing" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-slashing",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_SLASHING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-acid" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-acid",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_ACID\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-cold" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-cold",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-fire" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-fire",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-force" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-force",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FORCE\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-lightning" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-lightning",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_LIGHTNING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-necrotic" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-necrotic",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-poison" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-poison",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-psychic" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-psychic",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_PSYCHIC\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-radiant" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-radiant",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_RADIANT\" />"
+		]
+	},
+	"auroralegacy:grant-condition-immunity-thunder" : {
+		"prefix" : "auroralegacy:grant-condition-immunity-thunder",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_THUNDER\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-bludgeoning" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-bludgeoning",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_BLUDGEONING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-piercing" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-piercing",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_PIERCING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-slashing" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-slashing",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_SLASHING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-acid" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-acid",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_ACID\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-cold" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-cold",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_COLD\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-fire" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-fire",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_FIRE\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-force" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-force",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_FORCE\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-lightning" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-lightning",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_LIGHTNING\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-necrotic" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-necrotic",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_NECROTIC\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-poison" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-poison",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_POISON\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-psychic" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-psychic",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_PSYCHIC\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-radiant" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-radiant",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_RADIANT\" />"
+		]
+	},
+	"auroralegacy:grant-condition-vulnerability-thunder" : {
+		"prefix" : "auroralegacy:grant-condition-vulnerability-thunder",
+		"body" : [
+			"<grant type=\"Condition\" id=\"ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_THUNDER\" />"
+		]
+	}
 }
