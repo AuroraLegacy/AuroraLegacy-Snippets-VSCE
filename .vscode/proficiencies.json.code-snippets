@@ -1,4 +1,10 @@
 {	
+	"auroralegacy:grant-proficiency-skill" : {
+		"prefix" : "auroralegacy:grant-proficiency-skill",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_${1|ACROBATICS,ANIMALHANDLING,ARCANA,ATHLETICS,DECEPTION,HISTORY,INSIGHT,INTIMIDATION,INVESTIGATION,MEDICINE,NATURE,PERCEPTION,PERFORMANCE,PERSUASION,RELIGION,SLEIGHTOFHAND,STEALTH,SURVIVAL|}\" />"
+		]
+	},
 	"auroralegacy:grant-proficiency-acrobatics" : {
 		"prefix" : "auroralegacy:grant-proficiency-acrobatics",
 		"body" : [
