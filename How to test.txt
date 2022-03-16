@@ -1,0 +1,7 @@
+To Test snippets:
+
+1. Disable the snippets plugin
+2. Copy contents of "snippets" to ".vscode"
+3. Add .code-snippets to end of all files in ".vscode"
+
+When finished reverse stews before making pull request.

@@ -72,8 +72,8 @@
 			"</element>"
 		]
 	},
-	"auroralegacy:element-sheet" : {
-		"prefix" : "auroralegacy:element-sheet",
+	"auroralegacy:sheet-element" : {
+		"prefix" : "auroralegacy:sheet-element",
 		"body" : [
 			"<sheet>",
 			"\t<description>${1:description}</description>",
@@ -166,6 +166,12 @@
 			"usage=\"${1:1}/Long Rest\""
 		]
 	},
+	"auroralegacy:usage-proflong" : {
+		"prefix" : "auroralegacy:usage-proflong",
+		"body" : [
+			"usage=\"{{proficiency}}/Long Rest\""
+		]
+	},
 	"auroralegacy:usage-cd" : {
 		"prefix" : "auroralegacy:usage-cd",
 		"body" : [
@@ -197,7 +203,7 @@
 	"auroralegacy:grant" : {
 		"prefix" : "auroralegacy:grant",
 		"body" : [
-			"<grant type=\"${1:type}\" id=\"${2:id}\" />"
+			"<grant type=\"${1|Grants,Spell,Language,Proficiency,Feat,Feat Feature,Class Feature,Archetype Feature,Racial Feature|}\" id=\"_________\" />"
 		]
 	},
 	"auroralegacy:grant-size-medium" : {
@@ -244,10 +250,22 @@
 			"<grant type=\"${1:Archetype Feature}\" id=\"${2:id}\" level=\"${3:level}\" />"
 		]
 	},
+	"auroralegacy:grant-creature-type" : {
+		"prefix" : "auroralegacy:creature-type",
+		"body" : [
+			"<grant type=\"Racial Feature\" id=\"ID_INTERNAL_RACIAL_TRAIT_TYPE_${1|HUMANOID,FEY,HUMANOID_DWARF,HUMANOID_ELF,HUMANOID_GOBLINOID,HUMANOID_GNOME|}\" />"
+		]
+	},
 	"auroralegacy:select" : {
 		"prefix" : "auroralegacy:select",
 		"body" : [
 			"<select type=\"${1:type}\" name=\"${2:name}\" supports=\"${3:supports}\" />"
+		]
+	},
+	"auroralegacy:select-size" : {
+		"prefix" : "auroralegacy:select",
+		"body" : [
+			"<select type=\"Racial Trait\" name=\"Size (${1:name})\" supports=\"ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM\" />"
 		]
 	},
 	"auroralegacy:select-language" : {
@@ -272,6 +290,12 @@
 		"prefix" : "auroralegacy:stat",
 		"body" : [
 			"<stat name=\"${1:name}\" value=\"${2:value}\" />"
+		]
+	},
+	"auroralegacy:stat:darkvision:range" : {
+		"prefix" : "auroralegacy:darkvision:range",
+		"body" : [
+			"<stat name=\"darkvision:range\" value=\"${1:range}\" bonus=\"base\" />"
 		]
 	},
 	"auroralegacy:stat:strength" : {
@@ -311,9 +335,9 @@
 		]
 	},
 	"auroralegacy:stat:innate-speed" : {
-		"prefix" : "auroralegacy:stat",
+		"prefix" : "auroralegacy:stat:innate-speed",
 		"body" : [
-			"<stat name=\"innate speed\" value=\"${1|30,25|}\" bonus=\"base\" />"
+			"<stat name=\"${1|innate speed,innate speed:fly,innate speed:swim,innate speed:climb,innate speed:burrow|}\" value=\"${2|30,innate speed,35,25|}\" bonus=\"base\" />"
 		]
 	},
 	"auroralegacy:stat:min1" : {
@@ -346,7 +370,7 @@
 	"auroralegacy:bonus" : {
 		"prefix" : "auroralegacy:bonus",
 		"body" : [
-			"bonus=\"${bonus}\""
+			"bonus=\"${1|base,enhancement,calculation,ability,double|}\""
 		]
 	},
 	"auroralegacy:spellcasting-attribute" : {
@@ -358,6 +382,7 @@
 	"auroralegacy:table" : {
 		"prefix" : "auroralegacy:table",
 		"body" : [
+			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>${1:column1}</td><td>${2:column2}</td></tr>",
@@ -376,6 +401,7 @@
 	"auroralegacy:table-d4" : {
 		"prefix" : "auroralegacy:table-d4",
 		"body" : [
+			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>d4</td><td>${1:column2}</td></tr>",
@@ -390,6 +416,7 @@
 	"auroralegacy:table-d6" : {
 		"prefix" : "auroralegacy:table-d6",
 		"body" : [
+			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>d6</td><td>${1:column2}</td></tr>",
@@ -406,6 +433,7 @@
 	"auroralegacy:table-d8" : {
 		"prefix" : "auroralegacy:table-d8",
 		"body" : [
+			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>d8</td><td>${1:column2}</td></tr>",
@@ -424,6 +452,7 @@
 	"auroralegacy:table-d10" : {
 		"prefix" : "auroralegacy:table-d10",
 		"body" : [
+			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>d10</td><td>${1:column2}</td></tr>",
@@ -444,6 +473,7 @@
 	"auroralegacy:table-d12" : {
 		"prefix" : "auroralegacy:table-d12",
 		"body" : [
+			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>d12</td><td>${1:column2}</td></tr>",
@@ -466,6 +496,7 @@
 	"auroralegacy:table-d20" : {
 		"prefix" : "auroralegacy:table-d20",
 		"body" : [
+			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>d20</td><td>${1:column2}</td></tr>",
@@ -496,6 +527,7 @@
 	"auroralegacy:table-d100" : {
 		"prefix" : "auroralegacy:table-d100",
 		"body" : [
+			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
 			"\t\t<tr><td>d100</td><td>${1:column2}</td></tr>",
@@ -582,19 +614,19 @@
 	"auroralegacy:element-supports" : {
 		"prefix" : "auroralegacy:element-supports",
 		"body" : [
-			"<supports>$0</supports>"
+			"<supports>${0:________}</supports>"
 		]
 	},
 	"auroralegacy:element-requirements" : {
 		"prefix" : "auroralegacy:element-requirements",
 		"body" : [
-			"<requirements>$0</requirements>"
+			"<requirements>${0:________}</requirements>"
 		]
 	},
 	"auroralegacy:element-prerequisite" : {
 		"prefix" : "auroralegacy:element-prerequisite",
 		"body" : [
-			"<prerequisite>$0</prerequisite>"
+			"<prerequisite>${0:________}</prerequisite>"
 		]
 	},
 	"auroralegacy:element-supports-archetype" : {
@@ -639,6 +671,50 @@
 		"prefix" : "auroralegacy:capacity-larger",
 		"body" : [
 			"<element name=\"Capacity Count As Larger Size\" type=\"Grants\" source=\"Internal\" id=\"ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER\" />"
+		]
+	},
+	"auroralegacy:element-tcoe-requirements" : {
+		"prefix" : "auroralegacy:element-tcoe-requirements",
+		"body" : [
+			"requirements=\"ID_WOTC_TCOE_OPTION_CUSTOMIZED_${1|ASI,LANGUAGE,PROFICIENCY|}\""
+		]
+	},
+	"auroralegacy:spellcasting-choose" : {
+		"prefix" : "auroralegacy:race-spellcasting-choose",
+		"body" : [
+			"<select type=\"Racial Trait\" name=\"Spellcasting Ability (${1:Spellcasting_Element})\" supports=\"_________|_________|_________\" />",
+			"",
+			"",
+			"<element name=\"Intelligence\" type=\"Racial Trait\" source=\"${2:source}\" id=\"ID_${3:author_source}_RACIAL_TRAIT_${4:Race}_${1:Spellcasting_Element}_INTELLIGENCE\">",
+			"\t<compendium display=\"false\" />",
+			"\t<description>",
+			"\t\t<p>Your spellcasting ability is Intelligence.</p>",
+			"\t</description>",
+			"\t<sheet alt=\"${1:Spellcasting_Element}\">",
+			"\t\t<description>${5:Info}&#13;",
+			"\t\tYour spellcasting ability is Intelligence.</description>",
+			"\t</sheet>",
+			"</element>",
+			"<element name=\"Wisdom\" type=\"Racial Trait\" source=\"${2:source}\" id=\"ID_${3:author_source}_RACIAL_TRAIT_${4:Race}_${1:Spellcasting_Element}_WISDOM\">",
+			"\t<compendium display=\"false\" />",
+			"\t<description>",
+			"\t\t<p>Your spellcasting ability is Wisdom.</p>",
+			"\t</description>",
+			"\t<sheet alt=\"${1:Spellcasting_Element}\">",
+			"\t\t<description>${5:Info}&#13;",
+			"\t\tYour spellcasting ability is Wisdom.</description>",
+			"\t</sheet>",
+			"</element>",
+			"<element name=\"Charisma\" type=\"Racial Trait\" source=\"${2:source}\" id=\"ID_${3:author_source}_RACIAL_TRAIT_${4:Race}_${1:Spellcasting_Element}_CHARISMA\">",
+			"\t<compendium display=\"false\" />",
+			"\t<description>",
+			"\t\t<p>Your spellcasting ability is Charisma.</p>",
+			"\t</description>",
+			"\t<sheet alt=\"${1:Spellcasting_Element}\">",
+			"\t\t<description>${5:Info}&#13;",
+			"\t\tYour spellcasting ability is Charisma.</description>",
+			"\t</sheet>",
+			"</element>"
 		]
 	}
 }

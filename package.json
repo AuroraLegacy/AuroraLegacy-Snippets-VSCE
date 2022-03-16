@@ -2,7 +2,7 @@
     "name": "auroralegacy-snippets",
     "displayName": "Aurora Legacy Snippets",
     "description": "Visual Studio snippet pack with the Aurora Legacy formatting.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "icon.png",
     "preview": true,
     "publisher": "AuroraLegacy",
