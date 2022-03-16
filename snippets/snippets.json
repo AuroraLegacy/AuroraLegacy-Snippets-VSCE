@@ -166,8 +166,8 @@
 			"usage=\"${1:1}/Long Rest\""
 		]
 	},
-	"auroralegacy:usage-proflong" : {
-		"prefix" : "auroralegacy:usage-proflong",
+	"auroralegacy:usage-usage-long-prof" : {
+		"prefix" : "auroralegacy:usage-long-prof",
 		"body" : [
 			"usage=\"{{proficiency}}/Long Rest\""
 		]
@@ -576,6 +576,12 @@
 		"prefix" : "auroralegacy:p-indent",
 		"body" : [
 			"<p class=\"indent\">${1:description}</p>"
+		]
+	},
+	"auroralegacy:sheet-indent" : {
+		"prefix" : "auroralegacy:sheet-indent",
+		"body" : [
+			"&#13;"
 		]
 	},
 	"auroralegacy:p-at-higher-levels" : {
