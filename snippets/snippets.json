@@ -335,6 +335,7 @@
 		]
 	},
 	"auroralegacy:stat:innate-speed" : {
+		"prefix" : "auroralegacy:stat:innate-speed",
 		"body" : [
 			"<stat name=\"${1|innate speed,innate speed:fly,innate speed:swim,innate speed:climb,innate speed:burrow|}\" value=\"${2|30,innate speed,35,25|}\" bonus=\"base\" />"
 		]
