@@ -86,6 +86,18 @@
 			"<sheet display=\"false\" />"
 		]
 	},
+	"auroralegacy:sheet-return" : {
+		"prefix" : "auroralegacy:sheet-return",
+		"body" : [
+			"&#13;"
+		]
+	},
+	"auroralegacy:sheet-bullet" : {
+		"prefix" : "auroralegacy:sheet-bullet",
+		"body" : [
+			"• "
+		]
+	},
 	"auroralegacy:element-equipment" : {
 		"prefix" : "auroralegacy:element-equipment",
 		"body" : [
@@ -404,7 +416,7 @@
 			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
-			"\t\t<tr><td>d4</td><td>${1:column2}</td></tr>",
+			"\t\t<tr><td class=\"col-10\">d4</td><td>${1:column2}</td></tr>",
 			"\t</thead>",
 			"\t<tr><td>1</td><td>data1</td></tr>",
 			"\t<tr><td>2</td><td>data2</td></tr>",
@@ -419,7 +431,7 @@
 			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
-			"\t\t<tr><td>d6</td><td>${1:column2}</td></tr>",
+			"\t\t<tr><td class=\"col-10\">d6</td><td>${1:column2}</td></tr>",
 			"\t</thead>",
 			"\t<tr><td>1</td><td>data1</td></tr>",
 			"\t<tr><td>2</td><td>data2</td></tr>",
@@ -436,7 +448,7 @@
 			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
-			"\t\t<tr><td>d8</td><td>${1:column2}</td></tr>",
+			"\t\t<tr><td class=\"col-10\">d8</td><td>${1:column2}</td></tr>",
 			"\t</thead>",
 			"\t<tr><td>1</td><td>data1</td></tr>",
 			"\t<tr><td>2</td><td>data2</td></tr>",
@@ -455,7 +467,7 @@
 			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
-			"\t\t<tr><td>d10</td><td>${1:column2}</td></tr>",
+			"\t\t<tr><td class=\"col-10\">d10</td><td>${1:column2}</td></tr>",
 			"\t</thead>",
 			"\t<tr><td>1</td><td>data1</td></tr>",
 			"\t<tr><td>2</td><td>data2</td></tr>",
@@ -476,7 +488,7 @@
 			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
-			"\t\t<tr><td>d12</td><td>${1:column2}</td></tr>",
+			"\t\t<tr><td class=\"col-10\">d12</td><td>${1:column2}</td></tr>",
 			"\t</thead>",
 			"\t<tr><td>1</td><td>data1</td></tr>",
 			"\t<tr><td>2</td><td>data2</td></tr>",
@@ -499,7 +511,7 @@
 			"<h5>${0:title}</h5>",
 			"<table>",
 			"\t<thead>",
-			"\t\t<tr><td>d20</td><td>${1:column2}</td></tr>",
+			"\t\t<tr><td class=\"col-10\">d20</td><td>${1:column2}</td></tr>",
 			"\t</thead>",
 			"\t<tr><td>1</td><td>data1</td></tr>",
 			"\t<tr><td>2</td><td>data2</td></tr>",
@@ -688,7 +700,7 @@
 	"auroralegacy:spellcasting-choose" : {
 		"prefix" : "auroralegacy:race-spellcasting-choose",
 		"body" : [
-			"<select type=\"Racial Trait\" name=\"Spellcasting Ability (${1:Spellcasting_Element})\" supports=\"_________|_________|_________\" />",
+			"<select type=\"Racial Trait\" name=\"Spellcasting Ability (${1:Spellcasting_Element})\" supports=\"ID_${3:author_source}_RACIAL_TRAIT_${4:Race}_${1:Spellcasting_Element}_INTELLIGENCE|ID_${3:author_source}_RACIAL_TRAIT_${4:Race}_${1:Spellcasting_Element}_WISDOM|ID_${3:author_source}_RACIAL_TRAIT_${4:Race}_${1:Spellcasting_Element}_CHARISMA\" />",
 			"",
 			"",
 			"<element name=\"Intelligence\" type=\"Racial Trait\" source=\"${2:source}\" id=\"ID_${3:author_source}_RACIAL_TRAIT_${4:Race}_${1:Spellcasting_Element}_INTELLIGENCE\">",
@@ -719,6 +731,122 @@
 			"\t<sheet alt=\"${1:Spellcasting_Element}\">",
 			"\t\t<description>${5:Info}&#13;",
 			"\t\tYour spellcasting ability is Charisma.</description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	},
+	"auroralegacy:statblock" : {
+		"prefix" : "auroralegacy:statblock",
+		"body" : [
+			"<element name=\"${1:Creature_Name}\" type=\"Information\" source=\"${2:source}\" id=\"ID_${3:author_source}_INFORMATION_${1:Creature_Name}_STATBLOCK\">",
+			"\t<description>",
+			"\t\t<p style=\"margin-bottom:-5px\"><em>${4|Tiny,Small,Medium,Large,Huge,Gargantuan|} ${5|Aberration,Beast,Celestial,Construct,Dragon,Elemental,Fey,Fiend,Giant,Humanoid,Monstrositie,Ooze,Plant,Undead|}, ${6|unaligned,lawful good,chaotic good,neutral good,lawful neutral,chaotic neutral,true neutral,lawful evil,chaotic evil,neutral evil|}</em></p>",
+			"\t\t<h4 style=\"margin-top:5px\" />",
+			"\t\t<ul class=\"unstyled\">",
+			"\t\t\t<li><strong>Armor Class</strong> ________</li>",
+			"\t\t\t<li><strong>Hit Points</strong> ________ (________d________)</li>",
+			"\t\t\t<li><strong>Speed</strong> 30 ft.</li>",
+			"\t\t</ul>",
+			"\t\t<table style=\"text-align:center;margin-top:10px;margin-bottom:10px\">",
+			"\t\t\t<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>",
+			"\t\t\t<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>",
+			"\t\t</table>",
+			"\t\t<ul class=\"unstyled\">",
+			"\t\t\t<li><strong>Saving Throws</strong> ________</li>",
+			"\t\t\t<li><strong>Skills</strong> ________</li>",
+			"\t\t\t<li><strong>Damage Resistances </strong> ________</li>",
+			"\t\t\t<li><strong>Damage Immunities</strong> ________</li>",
+			"\t\t\t<li><strong>Condition Immunities</strong> ________</li>",
+			"\t\t\t<li><strong>Senses</strong> passive Perception ________</li>",
+			"\t\t\t<li><strong>Languages</strong> —</li>",
+			"\t\t\t<li style=\"margin-bottom:-1em\"><strong>Challenge</strong> —</li>",
+			"\t\t\t<li style=\"text-align:right; margin-top:-1em\"><strong>Proficiency Bonus (PB)</strong> +________</li>",
+			"\t\t</ul>",
+			"\t\t<h4 style=\"margin-top:5px; margin-bottom:10px\" />",
+			"\t\t<ul class=\"unstyled\"> <!--any non-action features here-->",
+			"\t\t\t<li><strong>________.</strong> ________</li>",
+			"\t\t\t<li><strong>________.</strong> ________</li>",
+			"\t\t</ul>",
+			"\t\t<h4 style=\"margin-top:10px\">Actions</h4>",
+			"\t\t<ul class=\"unstyled\">",
+			"\t\t\t<li><strong><em>Attack. </em></strong><em>${7|Melee,Ranged|} Weapon Attack</em>: +________ to hit, reach ________ ft., one target. Hit: ________ (________d________ + ________) ${8|slashing,piercing,bludgeoning,poison,acid,fire,cold,radiant,necrotic,lightning,thunder,force,psychic|}</li>",
+			"\t\t</ul>",
+			"\t\t<h4 style=\"margin-top:10px\">Reactions</h4>",
+			"\t\t<ul class=\"unstyled\">",
+			"\t\t\t<li><strong>________.</strong> ________</li>",
+			"\t\t</ul>",
+			"\t\t<h4 style=\"margin-top:10px\">Bonus Actions</h4>",
+			"\t\t<ul class=\"unstyled\">",
+			"\t\t\t<li><strong>________.</strong> ________</li>",
+			"\t\t</ul>",
+			"\t\t<h4 style=\"margin-top:10px\">Legendary Actions</h4>",
+			"\t\t<ul class=\"unstyled\">",
+			"\t\t\t<li><strong><em>________. </em></strong> ________</li>",
+			"\t\t</ul>",
+			"\t</description>",
+			"</element>"
+		]
+	},
+	"auroralegacy:element-companion" : {
+		"prefix" : "auroralegacy:element-companion",
+		"body" : [
+			"<element name=\"${1:Creature_Name}\" type=\"Companion\" source=\"${2:source}\" id=\"ID_${3:author_source}_COMPANION_${1:Creature_Name}\">",
+			"\t<description>",
+			"\t\t<p>___</p>",
+			"\t\t<p class=\"indent\">___</p>",
+			"\t</description>",
+			"\t<setters>",
+			"\t\t<set name=\"size\">${4|Tiny,Small,Medium,Large,Huge,Gargantuan|}</set>",
+			"\t\t<set name=\"type\">${5|Aberration,Beast,Celestial,Construct,Dragon,Elemental,Fey,Fiend,Giant,Humanoid,Monstrositie,Ooze,Plant,Undead|}</set>",
+			"\t\t<set name=\"alignment\">${6|unaligned,lawful good,chaotic good,neutral good,lawful neutral,chaotic neutral,true neutral,lawful evil,chaotic evil,neutral evil|}</set>",
+			"\t\t<set name=\"ac\">${7|companion_ac|}</set>",
+			"\t\t<set name=\"hp\">${8|companion_hp_max|} (___d___ + ___)</set>",
+			"\t\t<set name=\"speed\">30 ft.</set>",
+			"\t\t<set name=\"strength\">10</set>",
+			"\t\t<set name=\"dexterity\">10</set>",
+			"\t\t<set name=\"constitution\">10</set>",
+			"\t\t<set name=\"intelligence\">10</set>",
+			"\t\t<set name=\"wisdom\">10</set>",
+			"\t\t<set name=\"charisma\">10</set>",
+			"\t\t<set name=\"resistances\">___</set>",
+			"\t\t<set name=\"immunities\">___</set>",
+			"\t\t<set name=\"conditionImmunities\">___</set>            ",
+			"\t\t<set name=\"senses\">passive Perception 10</set>",
+			"\t\t<set name=\"languages\">___</set>",
+			"\t\t<set name=\"challenge\">1</set>",
+			"\t\t<set name=\"traits\">ID_${3:author_source}_COMPANION_TRAIT_trait_name</set>",
+			"\t\t<set name=\"actions\">ID_${3:author_source}_COMPANION_ACTION_trait_name</set>",
+			"\t</setters>",
+			"\t<rules>",
+			"\t\t<stat name=\"companion:ac\" value=\"${7|companion_ac|}\" />",
+			"\t\t<stat name=\"companion:hp:max\" value=\"${8|companion_hp_max|}\" bonus=\"base\" />",
+			"\t\t<stat name=\"companion:speed\" value=\"30\" bonus=\"base\" />",
+			"\t</rules>",
+			"</element>"
+		]
+	},
+	"auroralegacy:element-companion-action" : {
+		"prefix" : "auroralegacy:element-companion-action",
+		"body" : [
+			"<element name=\"${1:Feature_Name}\" type=\"Companion Action\" source=\"${2:source}\" id=\"ID_${3:author_source}_COMPANION_ACTION_Creature_Name_${1:Feature_Name}\">",
+			"\t<description>",
+			"\t\t<p><i>${5|Melee,Ranged|} Weapon Attack:</i> +___ to hit, reach 5 ft., one target. <i>Hit:</i> ___ ${6|slashing,piercing,bludgeoning,poison,acid,fire,cold,radiant,necrotic,lightning,thunder,force,psychic|} damage.</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description>${5|Melee,Ranged|} Weapon Attack: +___ to hit, reach 5 ft., one target. Hit: ___ ${6|slashing,piercing,bludgeoning,poison,acid,fire,cold,radiant,necrotic,lightning,thunder,force,psychic|} damage.</description>",
+			"\t</sheet>",
+			"</element>"
+		]
+	},
+	"auroralegacy:element-companion-trait" : {
+		"prefix" : "auroralegacy:element-companion-trait",
+		"body" : [
+			"<element name=\"${1:Feature_Name}\" type=\"Companion Trait\" source=\"${2:source}\" id=\"ID_${3:author_source}_COMPANION_TRAIT_Creature_Name_${1:Feature_Name}\">",
+			"\t<description>",
+			"\t\t<p>${4:description}</p>",
+			"\t</description>",
+			"\t<sheet>",
+			"\t\t<description>${4:description}</description>",
 			"\t</sheet>",
 			"</element>"
 		]

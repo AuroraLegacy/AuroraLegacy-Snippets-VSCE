@@ -1,368 +1,394 @@
 {	
-	"auroralegacy:grant-proficiency-skill" : {
-		"prefix" : "auroralegacy:grant-proficiency-skill",
+	"auroralegacy:grant-skill-proficiency" : {
+		"prefix" : "auroralegacy:grant-skill-proficiency",
 		"body" : [
 			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_${1|ACROBATICS,ANIMALHANDLING,ARCANA,ATHLETICS,DECEPTION,HISTORY,INSIGHT,INTIMIDATION,INVESTIGATION,MEDICINE,NATURE,PERCEPTION,PERFORMANCE,PERSUASION,RELIGION,SLEIGHTOFHAND,STEALTH,SURVIVAL|}\" />"
 		]
 	},
-	"auroralegacy:grant-proficiency-acrobatics" : {
-		"prefix" : "auroralegacy:grant-proficiency-acrobatics",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_ACROBATICS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-animalhandling" : {
-		"prefix" : "auroralegacy:grant-proficiency-animalhandling",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_ANIMALHANDLING\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-arcana" : {
-		"prefix" : "auroralegacy:grant-proficiency-arcana",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_ARCANA\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-athletics" : {
-		"prefix" : "auroralegacy:grant-proficiency-athletics",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_ATHLETICS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-deception" : {
-		"prefix" : "auroralegacy:grant-proficiency-deception",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_DECEPTION\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-history" : {
-		"prefix" : "auroralegacy:grant-proficiency-history",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_HISTORY\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-insight" : {
-		"prefix" : "auroralegacy:grant-proficiency-insight",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_INSIGHT\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-intimidation" : {
-		"prefix" : "auroralegacy:grant-proficiency-intimidation",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_INTIMIDATION\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-investigation" : {
-		"prefix" : "auroralegacy:grant-proficiency-investigation",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_INVESTIGATION\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-medicine" : {
-		"prefix" : "auroralegacy:grant-proficiency-medicine",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_MEDICINE\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-nature" : {
-		"prefix" : "auroralegacy:grant-proficiency-nature",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_NATURE\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-perception" : {
-		"prefix" : "auroralegacy:grant-proficiency-perception",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_PERCEPTION\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-performance" : {
-		"prefix" : "auroralegacy:grant-proficiency-performance",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_PERFORMANCE\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-persuasion" : {
-		"prefix" : "auroralegacy:grant-proficiency-persuasion",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_PERSUASION\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-religion" : {
-		"prefix" : "auroralegacy:grant-proficiency-religion",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_RELIGION\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-sleightofhand" : {
-		"prefix" : "auroralegacy:grant-proficiency-sleightofhand",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_SLEIGHTOFHAND\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-stealth" : {
-		"prefix" : "auroralegacy:grant-proficiency-stealth",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_STEALTH\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-survival" : {
-		"prefix" : "auroralegacy:grant-proficiency-survival",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_SURVIVAL\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-armor-light" : {
-		"prefix" : "auroralegacy:grant-proficiency-armor-light",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-armor-medium" : {
-		"prefix" : "auroralegacy:grant-proficiency-armor-medium",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-armor-heavy" : {
-		"prefix" : "auroralegacy:grant-proficiency-armor-heavy",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-armor-shields" : {
-		"prefix" : "auroralegacy:grant-proficiency-armor-shields",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS\" />"
-		]
-	},
-
-	"auroralegacy:grant-proficiency-weapon-simple" : {
-		"prefix" : "auroralegacy:grant-proficiency-weapon-simple",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-weapon-martial" : {
-		"prefix" : "auroralegacy:grant-proficiency-weapon-martial",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-weapon-simple-melee" : {
-		"prefix" : "auroralegacy:grant-proficiency-weapon-simple-melee",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-weapon-martial-melee" : {
-		"prefix" : "auroralegacy:grant-proficiency-weapon-martial-melee",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-weapon-simple-ranged" : {
-		"prefix" : "auroralegacy:grant-proficiency-weapon-simple-ranged",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-weapon-martial-ranged" : {
-		"prefix" : "auroralegacy:grant-proficiency-weapon-martial-ranged",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS\" />"
-		]
-	},
+	// "auroralegacy:grant-proficiency-acrobatics" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-acrobatics",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_ACROBATICS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-animalhandling" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-animalhandling",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_ANIMALHANDLING\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-arcana" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-arcana",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_ARCANA\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-athletics" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-athletics",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_ATHLETICS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-deception" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-deception",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_DECEPTION\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-history" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-history",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_HISTORY\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-insight" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-insight",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_INSIGHT\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-intimidation" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-intimidation",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_INTIMIDATION\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-investigation" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-investigation",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_INVESTIGATION\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-medicine" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-medicine",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_MEDICINE\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-nature" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-nature",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_NATURE\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-perception" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-perception",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_PERCEPTION\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-performance" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-performance",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_PERFORMANCE\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-persuasion" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-persuasion",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_PERSUASION\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-religion" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-religion",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_RELIGION\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-sleightofhand" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-sleightofhand",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_SLEIGHTOFHAND\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-stealth" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-stealth",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_STEALTH\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-survival" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-survival",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SKILL_SURVIVAL\" />"
+	// 	]
+	// },
 
 
-	"auroralegacy:grant-proficiency-save-str" : {
-		"prefix" : "auroralegacy:grant-save-str",
+	"auroralegacy:grant-armor-proficiency" : {
+		"prefix" : "auroralegacy:grant-armor-proficiency",
 		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_STRENGTH\" />"
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_${1|LIGHT_ARMOR,MEDIUM_ARMOR,HEAVY_ARMOR,SHIELDS|}\" />"
 		]
 	},
-	"auroralegacy:grant-proficiency-save-dex" : {
-		"prefix" : "auroralegacy:grant-save-dex",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_DEXTERITY\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-save-con" : {
-		"prefix" : "auroralegacy:grant-save-con",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-save-int" : {
-		"prefix" : "auroralegacy:grant-save-int",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-save-wis" : {
-		"prefix" : "auroralegacy:grant-save-wis",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_WISDOM\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-save-cha" : {
-		"prefix" : "auroralegacy:grant-save-cha",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_CHARISMA\" />"
-		]
-	},
-	
-	
-	"auroralegacy:grant-proficiency-alchemists-supplies" : {
-		"prefix" : "auroralegacy:grant-proficiency-alchemists-supplies",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-brewers-supplies" : {
-		"prefix" : "auroralegacy:grant-proficiency-brewers-supplies",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-calligraphers-supplies" : {
-		"prefix" : "auroralegacy:grant-proficiency-calligraphers-supplies",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-carpenters-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-carpenters-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-cartographers-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-cartographers-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-cobblers-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-cobblers-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-cooks-utensils" : {
-		"prefix" : "auroralegacy:grant-proficiency-cooks-utensils",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-glassblowers-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-glassblowers-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-jewelers-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-jewelers-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-leatherworkers-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-leatherworkers-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-masons-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-masons-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-painters-supplies" : {
-		"prefix" : "auroralegacy:grant-proficiency-painters-supplies",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-potters-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-potters-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-smiths-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-smiths-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-tinkers-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-tinkers-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-weavers-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-weavers-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-woodcarvers-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-woodcarvers-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-disguise-kit" : {
-		"prefix" : "auroralegacy:grant-proficiency-disguise-kit",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-forgery-kit" : {
-		"prefix" : "auroralegacy:grant-proficiency-forgery-kit",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-herbalism-kit" : {
-		"prefix" : "auroralegacy:grant-proficiency-herbalism-kit",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-poisoners-kit" : {
-		"prefix" : "auroralegacy:grant-proficiency-poisoners-kit",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-navigators-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-navigators-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-thieves-tools" : {
-		"prefix" : "auroralegacy:grant-proficiency-thieves-tools",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-vehicles-land" : {
-		"prefix" : "auroralegacy:grant-proficiency-vehicles-land",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND\" />"
-		]
-	},
-	"auroralegacy:grant-proficiency-vehicles-water" : {
-		"prefix" : "auroralegacy:grant-proficiency-vehicles-water",
-		"body" : [
-			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER\" />"
-		]
-	}
+	// "auroralegacy:grant-proficiency-armor-light" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-armor-light",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-armor-medium" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-armor-medium",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-armor-heavy" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-armor-heavy",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-armor-shields" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-armor-shields",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS\" />"
+	// 	]
+	// },
 
+
+	"auroralegacy:grant-weapon-proficiency" : {
+		"prefix" : "auroralegacy:grant-weapon-proficiency",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_${1|SIMPLE_WEAPONS,MARTIAL_WEAPONS,SIMPLE_MELEE_WEAPONS,MARTIAL_MELEE_WEAPONS,SIMPLE_RANGED_WEAPONS,MARTIAL_RANGED_WEAPONS|}\" />"
+		]
+	},
+	// "auroralegacy:grant-proficiency-weapon-simple" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-weapon-simple",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-weapon-martial" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-weapon-martial",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-weapon-simple-melee" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-weapon-simple-melee",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-weapon-martial-melee" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-weapon-martial-melee",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-weapon-simple-ranged" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-weapon-simple-ranged",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-weapon-martial-ranged" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-weapon-martial-ranged",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS\" />"
+	// 	]
+	// },
+
+
+	"auroralegacy:grant-save-proficiency" : {
+		"prefix" : "auroralegacy:grant-save-proficiency",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_${1|STRENGTH,DEXTERITY,CONSTITUTION,INTELLIGENCE,WISDOM,CHARISMA|}\" />"
+		]
+	},
+	// "auroralegacy:grant-proficiency-save-str" : {
+	// 	"prefix" : "auroralegacy:grant-save-str",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_STRENGTH\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-save-dex" : {
+	// 	"prefix" : "auroralegacy:grant-save-dex",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_DEXTERITY\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-save-con" : {
+	// 	"prefix" : "auroralegacy:grant-save-con",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-save-int" : {
+	// 	"prefix" : "auroralegacy:grant-save-int",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-save-wis" : {
+	// 	"prefix" : "auroralegacy:grant-save-wis",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_WISDOM\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-save-cha" : {
+	// 	"prefix" : "auroralegacy:grant-save-cha",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_SAVINGTHROW_CHARISMA\" />"
+	// 	]
+	// },
+
+
+	"auroralegacy:grant-tool-proficiency" : {
+		"prefix" : "auroralegacy:grant-tool-proficiency",
+		"body" : [
+			"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_${1|ALCHEMISTS_SUPPLIES,BREWERS_SUPPLIES,CALLIGRAPHERS_SUPPLIES,CARPENTERS_TOOLS,CARTOGRAPHERS_TOOLS,COBBLERS_TOOLS,COOKS_UTENSILS,GLASSBLOWERS_TOOLS,JEWELERS_TOOLS,LEATHERWORKERS_TOOLS,MASONS_TOOLS,PAINTERS_SUPPLIES,POTTERS_TOOLS,SMITHS_TOOLS,TINKERS_TOOLS,WEAVERS_TOOLS,WOODCARVERS_TOOLS,DISGUISE_KIT,FORGERY_KIT,HERBALISM_KIT,POISONERS_KIT,NAVIGATORS_TOOLS,THIEVES_TOOLS,VEHICLES_LAND,VEHICLES_WATER|}\" />"
+		]
+	}//,
+	// "auroralegacy:grant-proficiency-alchemists-supplies" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-alchemists-supplies",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-brewers-supplies" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-brewers-supplies",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-calligraphers-supplies" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-calligraphers-supplies",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-carpenters-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-carpenters-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-cartographers-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-cartographers-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-cobblers-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-cobblers-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-cooks-utensils" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-cooks-utensils",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-glassblowers-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-glassblowers-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-jewelers-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-jewelers-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-leatherworkers-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-leatherworkers-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-masons-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-masons-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-painters-supplies" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-painters-supplies",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-potters-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-potters-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-smiths-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-smiths-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-tinkers-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-tinkers-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-weavers-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-weavers-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-woodcarvers-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-woodcarvers-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-disguise-kit" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-disguise-kit",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-forgery-kit" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-forgery-kit",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-herbalism-kit" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-herbalism-kit",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-poisoners-kit" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-poisoners-kit",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-navigators-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-navigators-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-thieves-tools" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-thieves-tools",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-vehicles-land" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-vehicles-land",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND\" />"
+	// 	]
+	// },
+	// "auroralegacy:grant-proficiency-vehicles-water" : {
+	// 	"prefix" : "auroralegacy:grant-proficiency-vehicles-water",
+	// 	"body" : [
+	// 		"<grant type=\"Proficiency\" id=\"ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER\" />"
+	// 	]
+	// }
 }

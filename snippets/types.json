@@ -90,7 +90,7 @@
 	"auroralegacy:element-featfeature" : {
 		"prefix" : "auroralegacy:element-featfeature",
 		"body" : [
-			"<element name=\"${1:name}\" type=\"Feat\" source=\"${2:source}\" id=\"ID_${3:author_source}_FEAT_FEATURE_${1:name}\">",
+			"<element name=\"${1:name}\" type=\"Feat Feature\" source=\"${2:source}\" id=\"ID_${3:author_source}_FEAT_FEATURE_${1:name}\">",
 			"\t<description>",
 			"\t\t<p>$0</p>",
 			"\t</description>",
